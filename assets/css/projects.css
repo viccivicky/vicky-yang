@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+body {
+	font-family: Josefin Sans;
+	color: black;
+	font-style: normal;
+	font-weight: 500;
+
+	width: 1120px;
+	margin: 80px auto 48px auto;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+h1 {
+	font-size: 72px;
+	margin: 0;
+}
+
+h3 {
+	font-weight: 600;
+}
+
+
+nav, footer {
+	font-family: Josefin Sans;
+	font-weight: 600;
+	font-size: 32px;
+}
+
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+/*	margin: 0 0 0 32px;*/
+}
+
+
+
+
+a {
+	text-decoration: none;
+	color: black;
+	transition: color 0.3;
+	margin: 0 32px 0 0;
+}
+
+a:hover {
+	color: #E3B848;
+}
+
+
+a.inline_link {
+	text-decoration: underline;
+	margin: 0;
+}
+
+
+section {	
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+
+
+section.project_title {
+	margin: 100px 0 0 0;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+/*Google colour*/
+
+section.project_title h1 span:nth-child(1),
+section.project_title h1 span:nth-child(4) {
+	 color:#4285F4;
+	/*white-space: nowrap;*/
+}
+
+section.project_title h1 span:nth-child(2),
+section.project_title h1 span:nth-child(6) {
+	color:#EA4335;	
+}
+
+section.project_title h1 span:nth-child(3) {
+	color:#FBBC05;	
+}
+section.project_title h1 span:nth-child(5) {
+	color:#34A853;	
+}
+
+/*section.project_title h2 {
+	margin: 0 0 85px 0;
+}*/
+
+section.project_img_single {
+/*	background-color: #C4C4C4;*/
+	margin: 74px 0 74px 0;
+
+}
+
+main {
+	margin: 74px 0 74px 0;
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+	gap: 20px 20px;
+}
+
+
+main.project div.project_title {
+	margin: 0 0 68px 0; 
+	line-height: 1.8;
+	grid-column: 7 / span 3;
+}
+
+main.project div.project_title h2{
+	text-align: right;
+	margin: 0;
+}
+
+
+main.project div.project_text {
+	margin: 7px 0 0 0;
+	grid-column: 10 / span 7;	
+	line-height: 1.8;
+
+}
+
+main.project div.project_text p, h3 {
+	margin: 0;
+
+}
+
+
+footer a {
+	margin: 0 0 0 0;
+}
+
+footer div.pagination {
+	margin: 100px 0 0 0;
+}
+
+footer div.pagination ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	margin: 100px 0 0 0;
+}
+
+footer div.pagination ul li.left {
+	text-align: right;
+	margin: 0 0 0 32px;
+} 
+
+footer div.pagination ul li.right {
+	text-align: left;
+	margin: 0 32px 0 0;
+} 
+
+footer div.pagination ul li.left img.arrow_left {
+	margin: 0 0 6px 0;
+}
+
+footer div.pagination ul li.right img.arrow_right {
+	margin: 0 0 4px 0;
+}
+
+#fb_title {
+	color: #1A60B1;
+}
+
+
+
+
+
+
+/* media queries */
+
+@media (max-width: 1130px) {
+
+	body {
+		width: auto;
+		margin: 0 32px 0 32px;
+	}
+
+
+
+/*	section.project_title {
+		margin: 32px 32px;
+	}*/
+
+
+/*	section.project_img_single {
+		margin: 0px 32px 32px 32px;			
+	}*/
+
+	main.project div.project_title h2 {
+		text-align: left;
+	}
+
+/*	section div.project_text {
+		margin: 0px 32px 32px 32px;	
+
+	}*/
+
+}
+
+
+@media (max-width: 980px) {
+
+	footer div.pagination ul {
+	margin: 0;
+}	
+
+
+
+section.project_title {
+	margin: 80px 0 0 0;
+}
+
+section.project_title h1 {
+	font-size: 62px;
+}
+
+
+main.project div.project_title {
+		grid-column: 1 / span 4;
+		margin:0;	
+}
+
+main.project div.project_text {
+		grid-column: 5 / span 14;	
+}
+	
+/*section.project_img_single {
+	margin: 0px 32px 32px 32px;			
+	}*/
+
+
+}
+
+
+@media (max-width: 790px) {
+
+	header {
+		flex-direction: column;
+		margin: 0;
+	}
+
+	header a {
+		margin: 0px 32px 0px 32px;			
+	}
+
+	main.project div.project_title {
+		grid-column: 1 / span 16;
+		margin:0;	
+	}
+
+	main.project div.project_text {
+		grid-column: 1 / span 16;	
+	}
+
+footer div.pagination ul li.left  {
+		margin: 0;
+} 
+
+footer div.pagination ul li.right  {
+		margin: 0;
+	} 
+
+}	
+
+
+/*	section div.project_wrapper {
+		flex-direction: column;
+	}*/
+
+/*	section.project div.project_wrapper h2 {
+		width: auto;
+		justify-content: flex-end;
+		text-align: left;
+		margin: 0px 32px 0px 32px;			
+	}	*/
+
+
+@media (max-width: 630px) {
+
+
+footer div.pagination ul li.left a {
+		font-size: 24px;
+		margin: 0;
+} 
+
+footer div.pagination ul li.right a {
+		font-size: 24px;
+		margin: 0;
+	} 
+
+}
+
+@media (max-width: 525px) {
+
+footer div.pagination ul li.left a {
+		font-size: 18px;
+} 
+
+footer div.pagination ul li.right a {
+		font-size: 18px;
+	} 
+
+footer div.pagination ul li.left img.arrow_left {
+	margin: 0 0 2px 0;
+}
+
+
+}
+
+	
+
+
+
+

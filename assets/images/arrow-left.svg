@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="33px" height="10px" viewBox="0 0 33 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0.06,0.075 L32.597,0.075 L32.597,10 L0.06,10"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="arrow-left" sketch:type="MSLayerGroup">
+            <g id="Group-3">
+                <mask id="mask-2" sketch:name="Clip 2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M4.963,0.075 L4.963,10 L0,5.038 L4.963,0.075" id="Fill-1" fill="#1B1A19" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+            </g>
+            <path d="M4.963,4.672 L32.597,4.672 L32.597,5.403 L4.963,5.403 L4.963,4.672 Z" id="Fill-4" fill="#1B1A19" sketch:type="MSShapeGroup"></path>
+            <path d="M3.523,4.672 L4.963,4.672 L4.963,5.403 L3.523,5.403 L3.523,4.672 Z" id="Fill-5" fill="#0C0D0B" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
