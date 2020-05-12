@@ -210,6 +210,11 @@ section.project_img_single img {
 
 }
 
+main.project div.video_wrapper {
+	width: 1000px;
+
+}
+
 section.project_img_single video {
 	margin: 74px 32px 74px 32px;
 	width: 1000px;
@@ -250,6 +255,11 @@ section.project_img_single img {
 
 section.project_img_single video {
 	margin: 74px 32px 74px 32px;
+	width: 780px;
+
+}
+
+main.project div.video_wrapper {
 	width: 780px;
 
 }
@@ -301,6 +311,11 @@ section.project_img_single video {
 
 }	
 
+main.project div.video_wrapper {
+	width: 630px;
+
+}
+
 footer div.pagination ul li.left  {
 		margin: 0;
 } 
@@ -327,6 +342,11 @@ section.project_img_single video {
 
 }	
 
+main.project div.video_wrapper {
+	width: 500px;
+
+}
+
 
 footer div.pagination ul li.left a {
 		font-size: 24px;
@@ -341,6 +361,25 @@ footer div.pagination ul li.right a {
 }
 
 @media (max-width: 525px) {
+
+
+section.project_img_single img {
+	margin: 74px 32px 74px 32px;
+	width: 320px;
+
+}
+
+section.project_img_single video {
+	margin: 74px 32px 74px 32px;
+	width: 320px;
+
+}	
+
+main.project div.video_wrapper {
+	width: 320px;
+
+}
+
 
 footer div.pagination ul li.left a {
 		font-size: 18px;
