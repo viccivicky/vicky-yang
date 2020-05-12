@@ -37,7 +37,11 @@ header {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-/*	margin: 0 0 0 32px;*/
+}
+
+
+p {
+	font-size: 18px;
 }
 
 
