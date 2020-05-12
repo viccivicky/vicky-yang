@@ -103,16 +103,10 @@ section.project_img_single img {
 }
 
 section.project_img_single video {
-/*	background-color: #C4C4C4;*/
 	margin: 74px 0 74px 0;
 	width: 1120px;
 
 }
-
-
-/*section.project_title h2 {
-	margin: 0 0 85px 0;
-}*/
 
 
 
@@ -278,11 +272,11 @@ main.project div.project_text {
 		grid-column: 1 / span 16;	
 	}
 
-section.project_img_single img {
+	section.project_img_single img {
 	margin: 74px 32px 74px 32px;
 	width: 630px;
 
-}
+	}	
 
 
 
@@ -306,11 +300,6 @@ section.project_img_single img {
 
 }
 
-
-main.project div.video_wrapper {
-	width: 500px;
-
-}
 
 
 footer div.pagination ul li.left a {
