@@ -210,17 +210,6 @@ section.project_img_single img {
 
 }
 
-main.project div.video_wrapper {
-	width: 1000px;
-
-}
-
-section.project_img_single video {
-	margin: 74px 32px 74px 32px;
-	width: 1000px;
-
-}
-
 main.project div.project_title h2 {
 	text-align: left;
 }
@@ -253,16 +242,6 @@ section.project_img_single img {
 
 }
 
-section.project_img_single video {
-	margin: 74px 32px 74px 32px;
-	width: 780px;
-
-}
-
-main.project div.video_wrapper {
-	width: 780px;
-
-}
 
 
 main.project div.project_title {
@@ -305,16 +284,7 @@ section.project_img_single img {
 
 }
 
-section.project_img_single video {
-	margin: 74px 32px 74px 32px;
-	width: 630px;
 
-}	
-
-main.project div.video_wrapper {
-	width: 630px;
-
-}
 
 footer div.pagination ul li.left  {
 		margin: 0;
@@ -364,16 +334,7 @@ section.project_img_single img {
 
 }
 
-section.project_img_single video {
-	margin: 74px 32px 74px 32px;
-	width: 320px;
 
-}	
-
-main.project div.video_wrapper {
-	width: 320px;
-
-}
 
 
 footer div.pagination ul li.left a {
