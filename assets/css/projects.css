@@ -341,6 +341,14 @@ footer div.pagination ul li.right a {
 }
 
 @media (max-width: 525px) {
+	width: 320px;
+
+}
+
+section.project_img_single video {
+	width: 320px;
+
+}		
 
 footer div.pagination ul li.left a {
 		font-size: 18px;
