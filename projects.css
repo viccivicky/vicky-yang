@@ -103,10 +103,16 @@ section.project_img_single img {
 }
 
 section.project_img_single video {
+/*	background-color: #C4C4C4;*/
 	margin: 74px 0 74px 0;
 	width: 1120px;
 
 }
+
+
+/*section.project_title h2 {
+	margin: 0 0 85px 0;
+}*/
 
 
 
@@ -193,10 +199,10 @@ footer div.pagination ul li.right img.arrow_right {
 
 @media (max-width: 1130px) {
 
-body {
-	width: auto;
-	margin: 0 32px 0 32px;
-}
+	body {
+		width: auto;
+		margin: 0 32px 0 32px;
+	}
 
 section.project_img_single img {
 	margin: 74px 32px 74px 32px;
@@ -204,9 +210,15 @@ section.project_img_single img {
 
 }
 
-main.project div.project_title h2 {
-	text-align: left;
+section.project_img_single video {
+	margin: 74px 32px 74px 32px;
+	width: 1000px;
+
 }
+
+main.project div.project_title h2 {
+		text-align: left;
+	}
 
 
 
@@ -230,14 +242,6 @@ section.project_title h1 {
 }
 
 
-section.project_img_single img {
-	margin: 74px 32px 74px 32px;
-	width: 780px;
-
-}
-
-
-
 main.project div.project_title {
 		grid-column: 1 / span 4;
 		margin:0;	
@@ -247,6 +251,9 @@ main.project div.project_text {
 		grid-column: 5 / span 14;	
 }
 	
+/*section.project_img_single {
+	margin: 0px 32px 32px 32px;			
+	}*/
 
 
 }
@@ -272,14 +279,6 @@ main.project div.project_text {
 		grid-column: 1 / span 16;	
 	}
 
-	section.project_img_single img {
-	margin: 74px 32px 74px 32px;
-	width: 630px;
-
-	}	
-
-
-
 footer div.pagination ul li.left  {
 		margin: 0;
 } 
@@ -291,15 +290,19 @@ footer div.pagination ul li.right  {
 }	
 
 
+/*	section div.project_wrapper {
+		flex-direction: column;
+	}*/
+
+/*	section.project div.project_wrapper h2 {
+		width: auto;
+		justify-content: flex-end;
+		text-align: left;
+		margin: 0px 32px 0px 32px;			
+	}	*/
+
 
 @media (max-width: 630px) {
-
-section.project_img_single img {
-	margin: 74px 32px 74px 32px;
-	width: 500px;
-
-}
-
 
 
 footer div.pagination ul li.left a {
@@ -315,16 +318,6 @@ footer div.pagination ul li.right a {
 }
 
 @media (max-width: 525px) {
-
-
-section.project_img_single img {
-	margin: 74px 32px 74px 32px;
-	width: 320px;
-
-}
-
-
-
 
 footer div.pagination ul li.left a {
 		font-size: 18px;
