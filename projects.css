@@ -84,7 +84,6 @@ section.project_title {
 section.project_title h1 span:nth-child(1),
 section.project_title h1 span:nth-child(4) {
 	 color:#4285F4;
-	/*white-space: nowrap;*/
 }
 
 section.project_title h1 span:nth-child(2),
@@ -112,12 +111,6 @@ section.project_img_single video {
 	width: 1120px;
 
 }
-
-
-/*section.project_title h2 {
-	margin: 0 0 85px 0;
-}*/
-
 
 
 main {
@@ -254,10 +247,6 @@ main.project div.project_title {
 main.project div.project_text {
 		grid-column: 5 / span 14;	
 }
-	
-/*section.project_img_single {
-	margin: 0px 32px 32px 32px;			
-	}*/
 
 
 }
@@ -292,18 +281,6 @@ footer div.pagination ul li.right  {
 	} 
 
 }	
-
-
-/*	section div.project_wrapper {
-		flex-direction: column;
-	}*/
-
-/*	section.project div.project_wrapper h2 {
-		width: auto;
-		justify-content: flex-end;
-		text-align: left;
-		margin: 0px 32px 0px 32px;			
-	}	*/
 
 
 @media (max-width: 630px) {
