@@ -99,14 +99,12 @@ section.project_title h1 span:nth-child(5) {
 }
 
 section.project_img_single img {
-/*	background-color: #C4C4C4;*/
 	margin: 74px 0 74px 0;
 	width: 1120px;
 
 }
 
 section.project_img_single video {
-/*	background-color: #C4C4C4;*/
 	margin: 74px 0 74px 0;
 	width: 1120px;
 
@@ -179,9 +177,9 @@ footer div.pagination ul li.left img.arrow_left {
 	margin: 0 0 6px 0;
 }
 
-footer div.pagination ul li.right img.arrow_right {
+/* footer div.pagination ul li.right img.arrow_right {
 	margin: 0 0 4px 0;
-}
+} */
 
 #fb_title {
 	color: #1A60B1;
