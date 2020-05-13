@@ -177,9 +177,9 @@ footer div.pagination ul li.left img.arrow_left {
 	margin: 0 0 6px 0;
 }
 
-/* footer div.pagination ul li.right img.arrow_right {
-	margin: 0 0 4px 0;
-} */
+footer div.pagination ul li.right img.arrow_right {
+	margin: 0 0 6px 0;
+} 
 
 #fb_title {
 	color: #1A60B1;
