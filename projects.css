@@ -37,7 +37,6 @@ header {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-/*	margin: 0 0 0 32px;*/
 }
 
 p {
@@ -82,7 +81,6 @@ section.project_title {
 section.project_title h1 span:nth-child(1),
 section.project_title h1 span:nth-child(4) {
 	 color:#4285F4;
-	/*white-space: nowrap;*/
 }
 
 section.project_title h1 span:nth-child(2),
@@ -98,9 +96,8 @@ section.project_title h1 span:nth-child(5) {
 }
 
 section.project_img_single img {
-/*	background-color: #C4C4C4;*/
 	margin: 74px 0 74px 0;
-	width: 1120px;
+/* 	width: 1120px; */
 	object-fit: contain;
 	height:auto;
 
